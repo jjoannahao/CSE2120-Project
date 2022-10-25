@@ -2,6 +2,7 @@
 
 Precipitate Calculator
 
+# Info from Document
 ## Data Structures, Functions Required
 * tuple
 * 1D array 
@@ -13,7 +14,7 @@ Precipitate Calculator
   - add value to array 
   - modify a value in an array
 
-## Pseudocode
+## Document's Pseudocode
 inputs include:
 * name of ion, volume, conc.
    * need to know charge, molar mass
