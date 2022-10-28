@@ -36,6 +36,18 @@ def getReactants():
 
 
 # ----- Processing
+def determinePrecipitate(cation, anion):
+    # column 1
+
+    # column 2
+    if anion == "F" and cation in ("Li", "Mg", "Ca", "Sr", "Ba", "Fe", "Hg2", "Pb"):
+        return True
+    elif anion in ("Cl", "Br", "I") and cation in ("Ag", "Hg2", "Pb", "Tl", "Cu"): # Cu has to be less common +1 charge
+        return True
+    elif
+
+
+
 def getCharge(elem):
     global POS1_IONS, POS2_IONS  # , all the remaining charges pos & neg
     if elem in POS1_IONS:
