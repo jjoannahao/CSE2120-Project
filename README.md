@@ -7,12 +7,18 @@ Precipitate Calculator
 * tuple
 * 1D array 
   * tuple crosses this off or might need another one
-* 2D array
-  * use where??
 * dict optional
 - +1 functions must 
-  - add value to array 
+  - add value to array
   - modify a value in an array
+  - final output (list) -- add mass value, modify placeholder of product chemical formula 
+
+### DONE
+* 2D array (list/tuple inside list/tuple)
+  * 3 items in broader list -- 2 reactants, 1 product
+    * each sublist has all necessary properties of substances
+      * could be substances = ((cation, vol, conc), (anion, vol, conc), (product))
+
 
 ## Document's Pseudocode
 inputs include:

@@ -32,6 +32,10 @@ def getReactants():
         conc = input(f"What is the concentration of the {charge[i]} solution? (mol/L) ")
         # check
         ion_info.append((ion, float(volume), float(conc)))
+
+        for j in range(1, 3):
+            ion_info[]
+
     return ion_info
 
 
